@@ -1,0 +1,142 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title> Australian Design Architects Home </title>
+  
+
+  <link rel="stylesheet" href="Australian-Design-Architects.css">
+  <link rel="stylesheet" href="Image-slideshow.css">
+  <link rel="icon"  type= "image/png" href="images/Logofavicon1corp.png">
+   <link rel="stylesheet" href="forms/normalize.css" />
+	<link rel="stylesheet" href="forms/mystyle.css" />  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content=" Jacky Mikhail/ jacky_mikhail23@hotmail.com/ 0452273556">
+  
+   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+<script src="js/script.js" defer></script>
+<script src="forms/modernizr_forms.js"></script>
+<script>
+$(function() {
+$(".rslides").responsiveSlides();
+});
+</script>
+ 
+  
+</head>
+
+<body>
+<div id="wrapper">
+<div id="inner-wrapper">
+
+<header>
+<a href="index.html"><img src="images/architect-architectural-design-architecture-logo.jpg" alt="Australian Design Architects" width="1000" height="434" title="Architects Logo"></a>
+
+ 
+</header>
+
+<nav>
+<ul>
+
+
+<li><a href="index.html">HOME</a></li>
+<li><a href="portfolio.html">PORTFOLIO</a></li>
+<li><a href="about_us.html" >ABOUT US</a></li>
+<li><a href="contact_us.html" >CONTACT&nbsp;US</a></li>
+<li><a href="login.html" >Log In</a></li>
+</ul>
+</nav>
+
+<main>
+
+<form id="myform" name="theform" class="group" action="http://iviewsource.com" method="POST">
+	<fieldset id="login" title="Login Info">
+		<legend>Login Info</legend>
+		<span id="formerror" class="error"></span>
+		<ol>
+			<li>
+				<label for="myname">Name *</label>
+				<input type="text" name="myname" id="myname" title="Please enter your name" pattern="[A-Za-z ]+, [A-Za-z ]+" autofocus required placeholder="Last, First" />
+			</li>
+			<li>
+				<label for="myemail">Email *</label>
+				<input type="email" name="myemail" required id="myemail" autocomplete="off" />
+			</li>
+			<li>
+				<label for="mypassword">Password</label>
+				<input type="password" name="mypassword" id="mypassword" />
+			</li>
+		</ol>
+	</fieldset>
+	<fieldset id="other" class="hidden" title="Other Info">
+		<legend>Other</legend>
+		<ol>
+			<li>
+				<label for="myurl">Website</label>
+				<input type="url" name="myurl" id="myurl" />
+			</li>
+			<li>
+				<label for="mytelephone">Telephone</label>
+				<input type="tel" name="mytelephone" id="mytelephone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="xxx-xxx-xxxx"/>
+			</li>
+			<li class="singleline">
+				<input type="checkbox" id="subscribeitem" name="subscribe" CHECKED value="yes" />
+				<label for="subscribeitem">Subscribe to our mailing list?</label>
+			</li>
+			<li>
+				<label for="reference">How did you hear about us?</label>
+				<select name="reference" id="reference">
+					<option>Choose...</option>
+					<option value="friend">A friend</option>
+					<option value="facebook">Facebook</option>
+					<option value="twitter">Twitter</option>
+				</select>
+			</li>
+		</ol>
+	</fieldset>
+	<fieldset id="comments"  class="hidden" title="Comments">
+	<legend>Comments</legend>
+		<ol>
+			<li>
+				<div class="grouphead">Request Type</div>
+				<ol>
+					<li>
+						<input type="radio" name="requesttype" value="question" id="questionitem" />
+						<label for="questionitem">Question</label>
+					</li>
+					<li>
+						<input type="radio" name="requesttype" value="comment" id="commentitem" />
+						<label for="commentitem">Comment</label>
+					</li>
+				</ol>
+			</li>
+			<li>
+				<label for="mycomments">Comment</label>
+				<textarea name="mycomments" id="mycomments"></textarea>
+			</li>
+		</ol>
+		<button type="submit">send</button>
+	</fieldset>
+</form>
+<script src="forms/myscript.js"></script>
+
+
+</main>
+<footer>
+<ul>
+
+<li>&copy; Australian Design Architects 2019</li>
+<li><a href="legals.html">Privacy</a></li>
+<li><a href="legals.html">Legals</a></li>
+<li><a href="https://www.twitter.com"><img src=" images/twitter_icon.png" alt="Twitter" width="25" height="20"></a></li>
+<li><a href="mail-to:www,austrliandesignarchitects.com.au">Mail</a></li></ul>
+</footer>
+</div>
+</div>
+</body>
+</html>

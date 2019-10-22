@@ -1,0 +1,44 @@
+﻿* {
+margin: 0em;
+padding: 0em;
+font-size: 100%;
+border-style: none;
+list-style-type: none;
+}
+
+#image-slideshow { width: 1000px;  /* apply the width of your images */
+margin: auto;
+}
+#image-slideshow h1 {
+font-size: 2em;
+letter-spacing: 0.4em;
+text-align: center;
+}
+.rslides {
+position: relative;
+list-style: none;
+overflow: hidden;
+width: 100%;
+padding: 0;
+margin: 0;
+}
+.rslides li {
+-webkit-backface-visibility: hidden;
+position: absolute;
+display: none;
+width: 100%;
+left: 0;
+top: 0;
+}
+.rslides li:first-child {
+position: relative;
+display: block;
+float: left;
+}
+.rslides img {
+display: block; height: auto; float: left; width: 100%;
+border: 0;
+}
+
+
+
